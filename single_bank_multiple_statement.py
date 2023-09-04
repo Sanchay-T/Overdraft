@@ -1267,10 +1267,10 @@ class SingleBankStatementConverter:
 # "ICICI": "BOB": "IndusInd": "Indian": "TJSB": "NKGSB": "HDFC"
 
 # bank_names = ["HDFC"]
-# pdf_paths = ["/Users/sanchaythalnerkar/OD/HDFC INR STMT 2642 APR 2022 (1).pdf"]
+# pdf_paths = ["/workspaces/Overdraft/HDFC INR STMT 2642 APR 2022 (1) (1).pdf"]
 # passwords = [""]
 
-# # dates should be in the format dd-mm-yy
+# # # dates should be in the format dd-mm-yy
 # start_date = ["01-04-2022"]
 # end_date = ["30-04-2022"]
 # converter = SingleBankStatementConverter(bank_names, pdf_paths, passwords, start_date, end_date, '00000037039495417',

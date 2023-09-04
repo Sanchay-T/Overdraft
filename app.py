@@ -26,7 +26,7 @@ st.sidebar.markdown("### Credentials")
 password = st.sidebar.text_input("Password", value="", type="password")
 
 pdf_file = st.sidebar.file_uploader("Upload PDF file")
-
+print(pdf_file)
 submit_button = st.sidebar.button("Submit")
 
 def convert_bank_statements(pdf_file):
